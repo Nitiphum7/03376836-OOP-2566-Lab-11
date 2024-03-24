@@ -15,14 +15,14 @@ class Base
 }
 class Derived_1 : Base
 {
-    public sealed override void A()
+    public override void A()
     {
         System.Console.WriteLine("Derived_1.A()");
     }
 }
 class Derived_2 : Derived_1
 {
-    public override void A()
+    public new void A()
     {
         System.Console.WriteLine("Derived_2.A()");
     }
