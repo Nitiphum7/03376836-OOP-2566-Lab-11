@@ -6,22 +6,19 @@ public static class Calculator
 {
     public static int AddValues(int a, int b)
     {
-        System.Console.WriteLine("Calculated by method: public static long AddValues(int a, int b)");
+        System.Console.WriteLine("Calculated by method: public static int AddValues(int a, int b)");
         return a + b;
     }
-    public static long AddValues(int c, int d)
+
+    public static float AddValues(float a, float b)
     {
-        System.Console.WriteLine("Calculated by method: public static long AddValues(int c, int d)");
-        return c + d;
+        System.Console.WriteLine("Calculated by method: public static float AddValues(float a, float b)");
+        return a + b;
     }
-    public static float AddValues(int f, int g)
+
+    public static long AddValues(long a, long b)
     {
-        System.Console.WriteLine("Calculated by method: public static long AddValues(int f, int g)");
-        return (long) (f + g);
-    }
-   public static long AddValues(long h, long i)
-    {
-        System.Console.WriteLine("Calculated by method: public static long AddValues(long h, long i)");
-        return (long) (h + i);
+        System.Console.WriteLine("Calculated by method: public static long AddValues(long a, long b)");
+        return a + b;
     }
 }
